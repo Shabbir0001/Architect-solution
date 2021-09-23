@@ -1,0 +1,23 @@
+.header-container{
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.header-container h1{
+    font-size: 45px;
+    color: #5eb0d6;
+    margin: 20px;
+}
+
+
+.header-container p{
+    font-size: 18px;
+    margin: 20px;
+    color: dimgrey;
+}
+
+@media(max-width: 600px){
+    .header-container{
+        margin-top: 200px;
+    }
+}

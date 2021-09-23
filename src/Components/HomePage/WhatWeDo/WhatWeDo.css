@@ -1,0 +1,21 @@
+.whatWeDo-container{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.whatWeDo-img{
+    flex-basis: 450px;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.whatWeDo-img img{
+    width: 100%;
+}
+
+.whatWeDo-info{
+    flex-basis: 450px;
+    margin: 10px;
+}

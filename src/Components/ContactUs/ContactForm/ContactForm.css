@@ -1,0 +1,58 @@
+.contactForm-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contactForm-container h5{
+    color: gray;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.contact-form{
+    flex-basis: 100%;
+}
+
+.contact-form p{
+    color: darkgray;
+    font-weight: bold;
+    margin: 0 20px; 
+    margin-top: 20px;
+}
+
+.simple-input{
+    height: 50px;
+    border: none;
+    width: 60%;
+    border-bottom: 1px solid silver;
+    margin: 0px 20px;
+    border-radius: 15px;
+}
+.large-input{
+    height: 200px;
+    width: 60%;
+    border: none;
+    margin: 20px;
+    border-radius: 15px;
+}
+#file{
+    margin: 20px;
+}
+
+.submit-button{
+    height: 35px;
+    margin: 20px;
+    padding: 0 30px;
+    background: #1f59d6;
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 3px 5px gray;
+    cursor: pointer;
+}
+
+
+.submit-button:hover{
+    transition: .3s ease all;
+    background: green;
+}

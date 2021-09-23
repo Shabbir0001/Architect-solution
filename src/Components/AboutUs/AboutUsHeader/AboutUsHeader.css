@@ -1,0 +1,35 @@
+.aboutUsHeader-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUsHeader-container h1{
+    font-size: 45px;
+    padding: 30px;
+}
+
+.aboutUsHeader-img{
+    flex-basis: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutUsHeader-img img{
+    width: 90%;
+    transition: .4s ease-in-out all;
+    -webkit-transition: all .4s ease;
+}
+
+.aboutUsHeader-img img:hover{
+    width: 100%;
+}
+
+
+@media(max-width: 700px){
+    .aboutUsHeader-container h1{
+        font-size: 30px;
+        padding: 5px;
+    }
+}

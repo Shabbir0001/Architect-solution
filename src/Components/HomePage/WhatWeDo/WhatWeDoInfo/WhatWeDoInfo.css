@@ -1,0 +1,33 @@
+.wwdInfo-container{
+    height: 100%;
+    padding: 20px;
+    background: #6b788d;
+    color: white;
+}
+
+.wwdInfo-container:hover{
+    transition: 0.4s ease all;
+    background: #495569;
+}
+
+.wwdInfo-container h1{
+    padding: 20px;
+}
+
+.wwdInfo-container h3{
+    padding: 20px;
+}
+
+.wwdInfo-container p{
+    padding: 20px;
+}
+
+.wwdInfo-container table{
+    padding: 10px;
+}
+
+.wwdInfo-container table td{
+    padding: 5px;
+}
+
+

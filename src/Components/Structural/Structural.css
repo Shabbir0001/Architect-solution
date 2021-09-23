@@ -1,0 +1,26 @@
+.structural-container{
+    margin: 10px;
+   align-self: center;
+}
+
+.structural-container h1{
+    font-size: 35px;
+    padding: 10px;
+    letter-spacing: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    height: 100px;
+}
+
+.structural-container h1:hover{
+    transition: .3s ease all;
+    background: lightgray;
+}
+
+
+.structural-container p{
+    font-size: 18px;
+    margin: 30px;
+    color: gray;
+}

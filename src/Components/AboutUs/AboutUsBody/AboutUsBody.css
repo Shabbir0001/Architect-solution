@@ -1,0 +1,40 @@
+.aboutUsBody-container{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    transition: 0.3s ease all;
+    -webkit-transition: all .4s ease;
+}
+
+.aboutUsBody-container:hover{
+    background: #0000000e;
+}
+
+.body-heading{
+    flex-basis: 450px;
+    padding: 20px;
+}
+
+.body-heading h1{
+    font-size: 35px;
+}
+
+
+.body-info{
+    flex-basis: 450px;
+    padding: 20px;
+}
+
+
+.body-info h5{
+    margin: 10px 0;
+    font-size: 18px;
+    color: darkgray;
+}
+
+.body-info p{
+    color: gray;
+    font-size: 20px;
+}

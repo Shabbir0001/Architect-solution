@@ -1,0 +1,75 @@
+.footer-container{
+    background: #3174a1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    z-index: 1;
+    transition: .4s ease-in-out all;
+    -webkit-transition: all .4s ease;
+}
+
+.footer-container:hover{
+    background: #04133b;
+    opacity: 0.9;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.footer-container h1{
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 5px 20px;
+    color: #04133b;
+    text-shadow: 3px 3px 5px gray, -3px -3px 5px gray;
+    transition: .3s ease all;
+    -webkit-transition: all .4s ease;
+
+}
+
+.footer-container h1:hover{
+    font-size: 40px;
+}
+
+.footer-container p{
+    color: darkgray;
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+.footer-container h2{
+    color: lightgray;
+    margin: 20px;
+}
+
+.footer-container h4{
+    color: lightgray;
+    margin: 10px 20px;
+}
+
+.footer-logo{
+    margin: 10px;
+    flex-basis: 200px;
+}
+
+
+.footer-info{
+    flex-basis: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-address{
+    flex-basis: 200px;
+    margin: 10px;
+}
+
+
+.footer-copyright{
+    flex-basis: 200px;
+    margin: 10px;
+}

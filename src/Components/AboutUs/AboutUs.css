@@ -1,0 +1,9 @@
+.aboutUs-container{
+    margin-top: 160px;
+}
+
+@media(min-width: 900px){
+    .aboutUs-container{
+        margin-left: 100px;
+    }
+}
